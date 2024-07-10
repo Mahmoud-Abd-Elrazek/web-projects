@@ -5,6 +5,8 @@ This repository contains various web development projects using HTML, CSS, and J
 ## Projects
 
 1. **Countdown Timer**: A simple countdown timer that counts down to a specified date and time.
+2. **Heart Trail Animation**: An animation that creates a trail of heart shapes following the cursor. This project demonstrates the use of JavaScript for creating dynamic animations and CSS for styling.
+
 
 ## Getting Started
 
