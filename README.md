@@ -9,7 +9,10 @@ This repository contains various web development projects using HTML, CSS, and J
 ![image](https://github.com/Mahmoud-Abd-Elrazek/web-projects/assets/152639174/e73a7e18-8634-429c-8bc8-17e67dafdb0c)
 
 
-2. **Heart Trail Animation**: An animation that creates a trail of heart shapes following the cursor. This project demonstrates the use of JavaScript for creating dynamic animations and CSS for styling.
+2. **Heart Trail Animation**: An animation that creates a trail of heart shapes following the cursor. This project demonstrates the use of JavaScript for creating dynamic animations and CSS for styling. (When you hove on the window, the window seems like this:)
+
+![image](https://github.com/Mahmoud-Abd-Elrazek/web-projects/assets/152639174/393488b7-7648-4782-bee4-6a37f5bb9480)
+
 
 3. **Review Project**: This project displays people's names, their job, a photo, and a description of them.
    
