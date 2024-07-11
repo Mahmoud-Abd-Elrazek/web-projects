@@ -1,0 +1,157 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+body{
+   background-color: #eee;
+}
+main{
+   width: 100%;
+   padding-top: 50px;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 40px;
+}
+
+.container .img-container{
+   border-radius: 8px;
+   overflow: hidden;
+   width: 550px;
+}
+.container .img-container img{
+   width: 100%;
+}
+
+.product-info{
+   width: 500px;
+}
+
+.product-info .title{
+   font-weight: bold;
+   font-size: 28px;
+   line-height: 1.4;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: rgb(5, 132, 170);
+   text-shadow: 1px 2px 7px rgb(5, 132, 170);
+}
+.deadline p {
+   color: #000000e0;
+   padding: 5px 0 ;
+   font-weight: 600;
+   font-size:17px ;
+   letter-spacing: 2px;
+}
+.dicription{
+   padding: 10px 0 0 0 ;
+   color: #777;
+   font-size: 17px;
+}
+
+.rem-time-container{
+   margin-top: 20px;
+   display: flex;
+   gap: 10px;
+}
+
+.time{
+   background-color: #093661;
+   text-align: center;
+   padding: 10px 0 ;
+   width: 80px;
+}
+.time h2{
+   color: #ffffff;
+   padding: 3px;
+   letter-spacing: 1px;
+}
+.time span{
+   color: #ffffffab;
+   letter-spacing: 3px;
+   
+}
+
+
+
+/* tims-up finshed */
+.tims-up ,.finshed{
+   color: rgba(255, 0, 0, 0.788);
+   font-weight: bold;
+   letter-spacing: 2px;
+}
+.finshed{
+   padding: 0 10px ;
+   border-radius: 4px;
+   color: green;
+   border: 2px solid red;
+}
+
+
+
+
+
+/*  */
+
+
+@media screen and (max-width: 500px){
+   main{
+      padding: 0;
+   }
+   body{
+      background-color: rebeccapurple;
+   }
+   .container{
+      display: block;
+      background-color: #000;
+   }
+   .product-info{
+      width: 100vw;
+      padding: 10px;
+   }
+   .container .img-container{
+      width: 100vw;
+   }
+   .title{
+      margin: 0;
+      color: #ffffff;
+      font-size: 22px;
+    color: yellowgreen;
+   }
+   .deadline p {
+      color: wheat;
+      font-size: 14px;
+   }
+   .dicription{
+      font-size: 14px;
+      line-height: 1.5;
+      letter-spacing: 1px;
+   }
+   .time{
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+   }
+   .time h2{
+      padding: 0;
+    font-size: 14px;
+   }
+   .time span{
+      letter-spacing: 0;
+      font-size: 12px;
+   }
+   .rem-time-container{
+      padding: 10px;
+      justify-content: space-between;
+      gap: 0;
+      flex-wrap: wrap;
+      max-width: 80%;
+   }
+}
