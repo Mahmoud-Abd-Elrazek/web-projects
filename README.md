@@ -6,6 +6,9 @@ This repository contains various web development projects using HTML, CSS, and J
 
 1. **Countdown Timer(V.1)**: A simple countdown timer that counts down to a specified date and time.
 
+![image](https://github.com/Mahmoud-Abd-Elrazek/web-projects/assets/152639174/e73a7e18-8634-429c-8bc8-17e67dafdb0c)
+
+
 2. **Heart Trail Animation**: An animation that creates a trail of heart shapes following the cursor. This project demonstrates the use of JavaScript for creating dynamic animations and CSS for styling.
 
 3. **Review Project**: This project displays people's names, their job, a photo, and a description of them.
