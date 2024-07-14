@@ -34,6 +34,11 @@ This repository contains various web development projects using HTML, CSS, and J
 7. **animatedClick**: Animaited-Click is a very simple project show how you can hide the side bar and ther is a simple animated socail icons bar. 
 
 ![clicked](https://github.com/user-attachments/assets/d8b3c65a-6f03-4432-b34d-0518e471265c)
+
+8. **sweeter**: Only HTML and CSS progect like titter or X platform , now you can add you js code.  
+
+![sweeter](https://github.com/user-attachments/assets/dc7771b3-8cdd-4deb-ae2b-840af8b519ed)
+
 ## Getting Started
 
 To run these projects, simply clone the repository and open the `index.html` file in your browser.
