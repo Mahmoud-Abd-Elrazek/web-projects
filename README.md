@@ -31,6 +31,9 @@ This repository contains various web development projects using HTML, CSS, and J
 
 ![image](https://github.com/Mahmoud-Abd-Elrazek/web-projects/assets/152639174/45f35b72-0fe7-482d-a542-c5b06df0ff6d)
 
+7. **animatedClick**: Animaited-Click is a very simple project show how you can hide the side bar and ther is a simple animated socail icons bar. 
+
+![clicked](https://github.com/user-attachments/assets/d8b3c65a-6f03-4432-b34d-0518e471265c)
 ## Getting Started
 
 To run these projects, simply clone the repository and open the `index.html` file in your browser.
