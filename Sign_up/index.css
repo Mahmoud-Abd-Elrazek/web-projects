@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --clr-primary:#9dedff ; 
+    --clr-primary-hover:#8ad6ff ; 
+    --clr-primary-dark:#7bdff6; 
+    --clr-primary-light:#c7f5ff; 
+    --clr-gray100:#f0f7f8; 
+    --clr-gray200:#cfd8dc; 
+    --clr-gray300:#a7b7be; 
+    --clr-gray400:#6b7e86; 
+    --clr-gray500:#425a65; 
+    --b-g1:#ffffff ;
+    --radius:1rem ; 
+}
+
+
+body{
+    background-image: linear-gradient(
+        315deg , 
+        #79ceff 0% , 
+        #dcb5ff 67% , 
+        #ffb8f0 100%
+        );
+    font-weight:500 ;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-gray500);
+}
+
+.form{
+    width: 24rem;
+    padding: 2rem;
+    border-radius: var(--radius);
+    background-color: var(--b-g1);
+}
+
+.form-title{
+    margin-bottom: 0.5rem ;
+}
+
+.form-discription{
+    margin-bottom: 2rem ;
+}
+
+.form-group{
+    position: relative;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--clr-gray200);
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    outline: none;
+    padding: 1.5rem;
+    background: none;
+}
+
+input:hover{
+    border-color: var(--clr-primary);
+}
+
+input:focus{
+    border-color: var(--clr-primary-dark);
+}
+
+label{
+    position: absolute;
+    left: 1rem;
+    top: 0.7rem;
+    padding: 0.5rem;
+    background-color: var(--b-g1);
+    transition: 
+        top 200ms ease-in,
+        left 200ms ease-in ,
+        font-size 200ms ease-in;
+}
+
+.btn-form{
+    display: block;
+    margin-left: auto;
+    padding: 0.75rem 2rem;
+    background-color: var(--clr-primary);
+    font-family: inherit;
+    font-weight: inherit;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 200ms ease-in;
+}
+
+.btn-form:hover{
+    background-color: var(--clr-primary-dark);
+}
+
+.form-input:focus ~ .form-label ,
+.form-input:not(:placeholder-shown).form-input:not(:focus) ~ .form-label {
+
+    top: -0.8rem;
+    left: 0.8rem ;
+    font-size: 0.8rem;
+}
+
+

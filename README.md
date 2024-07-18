@@ -39,6 +39,10 @@ This repository contains various web development projects using HTML, CSS, and J
 
 ![sweeter](https://github.com/user-attachments/assets/dc7771b3-8cdd-4deb-ae2b-840af8b519ed)
 
+9. **Sign_Up**: Only HTML and CSS sign up.
+
+![image](https://github.com/user-attachments/assets/0f0e6b6e-ac7c-4bab-b608-427041e1da0d)
+
 ## Getting Started
 
 To run these projects, simply clone the repository and open the `index.html` file in your browser.
