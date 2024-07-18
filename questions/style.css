@@ -1,0 +1,113 @@
+
+
+*{
+   padding: 0 ;
+   margin: 0;
+   box-sizing: border-box ; 
+   background-color:transparent  ; 
+   border: none;
+   outline: none;
+}
+
+main{
+   height: 100vh;
+}
+
+.general-qes{
+   padding: 20px;
+   /* margin-top: 80px; */
+   text-align: center;
+   font-family: cursive;
+   line-height: 3;
+   font-style: italic;
+   color: rgb(167, 167, 6);
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+}
+/* Stale for q&ans */
+.qus-and-answer{
+   /* background-color: rgba(139, 139, 13, 0.37); */
+   max-width: 600px;
+   flex: 1;
+   box-shadow: 10px 10px 10px #aca7a7;
+   padding: 20px;
+   border-radius: 10px;
+   margin-bottom: 40px;
+}
+.row1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.question{
+   padding: 5px;
+   position: relative;
+   font-size: 20px ; 
+   letter-spacing: 2px;
+   font-weight: bold;
+   line-height: 2;
+}
+.toggel{
+   cursor: pointer;
+   /* padding: 10px; */
+   border: 3px solid  rgb(167, 167, 6);;
+   width: 54px;
+   height: 30px;
+   display: flex;
+   justify-content: center;align-items: center;
+   flex-direction: column;
+   border-radius: 4px;
+   transition: 0.5s;
+}
+
+.toggel > div {
+   position: relative;
+   background-color:  rgb(167, 167, 6);
+   width: 18px;
+   height: 2px ;
+   z-index: -1;
+}
+.toggel > div::after {
+   content: "";
+   position: absolute;
+   background-color:  rgb(167, 167, 6);
+   width: 18px;
+   height: 2px ;
+   left: 0;
+   transform: rotate(90deg);
+}
+
+.anserw{
+   position: relative;
+   padding: 10px;
+   font-size: 14px;
+   letter-spacing: 1px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   line-height: 20px;
+   color: #5e5b5b;
+}
+
+.anserw::before{
+   content: "";
+   position: absolute;
+   background-color: #aca7a7;
+   width: 100% ;
+   height: 1px;
+   left: 0;
+   top:0;
+   margin-top: 10px;
+ }
+
+.qus-and-answer{
+   height: 80px;
+   overflow: hidden;
+   transition: 0.5s;
+}
+
+.showQestions{
+   height:150px
+}

@@ -43,6 +43,10 @@ This repository contains various web development projects using HTML, CSS, and J
 
 ![image](https://github.com/user-attachments/assets/0f0e6b6e-ac7c-4bab-b608-427041e1da0d)
 
+10. **qustions**: now you can ask some questions and you can answer them.
+
+![image](https://github.com/user-attachments/assets/231c6454-9878-4f0e-8018-32d348f0081e)
+
 ## Getting Started
 
 To run these projects, simply clone the repository and open the `index.html` file in your browser.
